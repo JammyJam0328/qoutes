@@ -45,12 +45,11 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'some quotes',
       lang: 'en',
     },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    publicPath: '/Jammy/',
-  },
+  build: {},
 }
